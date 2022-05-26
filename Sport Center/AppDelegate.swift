@@ -5,15 +5,16 @@
 //  Created by Afraz Siddiqui on 5/26/22.
 //
 
+import Adapty
 import UIKit
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+
+        Adapty.activate("YOUR_API_KEY_HERE")
+
         return true
     }
 
